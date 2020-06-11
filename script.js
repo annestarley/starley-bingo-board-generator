@@ -12,7 +12,7 @@ createBingoLayout: function (arr) {
     if (arr[i]) image = arr[i]
     else image = 'https://via.placeholder.com/120x160'
     this.createBingoSquare(image);
-    if (i == 11) this.createBingoSquare('./images/free-square.jpg')
+    if (i == 11) this.createBingoSquare('./images/free-square.png')
   }
 },
 createBingoSquare: function (image) {

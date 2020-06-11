@@ -1,16 +1,33 @@
-body {
-    margin: 0 auto;
-    text-align: center;
+    body {
+        margin: 0 auto;
+        text-align: center
+    }
+
+  .page {
+      width: 680px;
+      height: 920px;
+      margin: 0 auto;
+      text-align: center;
+      background-image: url("./images/background.png");
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      margin-top: 3px;
   }
 
   img {
-    width: 120px;
-    padding: 3px;
+    width: 110px;
+    padding: 2px;
   }
 
   .bingo-board {
+    margin: -8px 10px 10px;
     display: inline-flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 630px;
+    width: 570px;
+  }
+
+  #logo {
+    width: 220px;
+    margin: 30px 0 0 225px;
   }
