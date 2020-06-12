@@ -21,9 +21,10 @@ body {
 
 img {
     width: 110px;
-    margin: 2px;
+    margin: 0;
     z-index: -2;
     border-radius: 1%;
+    border: solid white 2px;
 }
 
 .bingo-board {
