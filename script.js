@@ -3,7 +3,12 @@ const pics = [
 "images/Colleen.jpeg", 
 "images/Dan.jpeg",
 "images/Paul.jpeg",
-"images/Anne.jpeg"
+"images/Anne.jpeg",
+"images/Betty.jpeg",
+"images/Harry.jpeg",
+"images/Mary.jpeg",
+"images/Mora.jpeg",
+"images/Priscilla.jpeg"
 ]
 
 let bingo = {
