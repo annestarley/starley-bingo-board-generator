@@ -28,7 +28,7 @@ let bingo = {
 createBingoLayout: function (arr) {
   for (let i = 0; i < 24; i++) {
     if (arr[i]) image = arr[i]
-    else image = 'https://via.placeholder.com/120x160'
+    else image = 'https://via.placeholder.com/1000x800'
     this.createBingoSquare(image);
     if (i == 11) this.createBingoSquare('images/free-square.png')
   }
